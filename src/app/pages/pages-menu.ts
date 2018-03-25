@@ -158,7 +158,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/auth/request-password',
       },
       {
-        title: 'Reset Password',
+        title: 'Reset Password ex',
         link: '/auth/reset-password',
       },
     ],
