@@ -6,7 +6,7 @@ export class ElectricityService {
   private data = [
     
     {
-      title: 'ECE',
+      title: 'M1',
       active: true,
       months: [
         { month: 'Raju', delta: '1.34', down: false, kWatts: '65', cost: '100' },
@@ -16,7 +16,7 @@ export class ElectricityService {
       ],
     },
     {
-      title: 'CSE',
+      title: 'M2',
       active: false,
       months: [
         { month: 'shek', delta: '1.34', down: false, kWatts: '65', cost: '100' },
@@ -30,7 +30,7 @@ export class ElectricityService {
       ],
     },
     {
-      title: 'MEC',
+      title: 'M3',
       active: false,
       months: [
         { month: 'Raju', delta: '1.34', down: false, kWatts: '65', cost: '100' },
