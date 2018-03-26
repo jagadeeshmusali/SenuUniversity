@@ -10,6 +10,7 @@ export class UserService {
   private users = {
     senu : {name : 'Senu p', picture:'assets/images/senu.jpg' },
     jaggu : {name : 'Jagadeesh Musali', picture:'assets/images/jaggu.jpg' },
+    chalo : {name : 'c Musali', picture:'assets/images/jaggu.jpg' },
     kiran : {name : 'Kiran K', picture:'assets/images/kiran.jpg' },
     samanth : {name : 'Samanth', picture:'assets/images/samanth.jpg' },
     nick: { name: 'Nick Jones', picture: 'assets/images/nick.png' },
