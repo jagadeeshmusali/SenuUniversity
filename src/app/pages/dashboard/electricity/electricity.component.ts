@@ -12,9 +12,9 @@ export class ElectricityComponent implements OnDestroy {
 
   data: Array<any>;
 
-  type = 'week';
-  types = ['week', 'month', 'year'];
-
+  type = 'M1';
+  types = ['M1', 'M2', 'M3'];
+studentObject = {'Name':'Jagadeesh Musali','Department':'ECE', 'Year': 'Final Year'};
   currentTheme: string;
   themeSubscription: any;
 
