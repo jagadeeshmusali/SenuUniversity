@@ -27,6 +27,10 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     this.userService.getUsers()
       .subscribe((users: any) => this.user = users.senu);
+
+      this.userService.getFireData().subscribe(prof =>{
+        console.log(prof);
+      })
   }
 
   toggleSidebar(): boolean {

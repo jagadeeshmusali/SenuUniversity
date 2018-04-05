@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
+import {AngularFireDatabase} from 'angularfire2/database';
 import 'rxjs/add/observable/of';
 
 let counter = 0;
@@ -22,13 +23,18 @@ export class UserService {
   };
 
   private userArray: any[];
-
-  constructor() {
+db:any;
+  constructor(db: AngularFireDatabase) {
     // this.userArray = Object.values(this.users);
+    this.db = db;
   }
 
   getUsers(): Observable<any> {
     return Observable.of(this.users);
+  }
+
+  getFireData(): Observable<any> {
+    return this.db.list('/Professors').valueChanges();
   }
 
   getUserArray(): Observable<any[]> {
