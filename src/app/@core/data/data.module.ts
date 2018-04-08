@@ -2,6 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { UserService } from './users.service';
+import { AuthService } from './auth.service';
 import { ElectricityService } from './electricity.service';
 import { StateService } from './state.service';
 import { SmartTableService } from './smart-table.service';
@@ -13,6 +14,7 @@ const SERVICES = [
   StateService,
   SmartTableService,
   PlayerService,
+  AuthService
 ];
 
 @NgModule({

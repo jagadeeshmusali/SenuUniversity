@@ -47,7 +47,7 @@ export class NgxPopoverFormComponent {
   template: `
     <nb-card class="popover-card">
       <nb-card-header status="warning">
-        Hello!
+      Sign in with your 
       </nb-card-header>
       <nb-card-body>
         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
