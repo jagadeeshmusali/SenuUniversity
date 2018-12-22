@@ -20,6 +20,7 @@ const PAGES_COMPONENTS = [
   declarations: [
     ...PAGES_COMPONENTS,
     UserLoginComponent,
+    UserProfileComponent,
   ],
 })
 export class PagesModule {

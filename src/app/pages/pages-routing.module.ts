@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserProfileComponent } from './users/user-profile/user-profile.component';
 
 const routes: Routes = [{
   path: '',
   component: PagesComponent,
-  children: [{
+  children: [ {path: 'UserProfileComponent',
+  component: UserProfileComponent,},
+  {
     path: 'dashboard',
     component: DashboardComponent,
   }, {
